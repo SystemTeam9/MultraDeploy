@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>再翻訳ページ</title>
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
+    <body>
+        <img src="../image/DeepL.png" width="200" height="auto" alt="DeepL">
+
+        <div class="putTextField" id="addTextField">
+            <div>
+                <textarea class="textlines" style="font-size: 20px;" rows="6" cols="50"></textarea>
+                <textarea class="textlines1" style="font-size: 20px;" rows="6" cols="50" onclick="rewriteLang(this)"></textarea>
+                <img class="yazi" src="../image/yazi.png" width="70" height="auto" onclick="DeepLAPI(this)">
+                <button onclick="deleteButtonHandle(this)" class="trash" style="background-color: white; border: none;" ><img src="../image/trash.png" width="25" height="auto"/></button>
+            </div>
+        </div>
+        <input class="button" type="image" src="../image/add.png" width="350" height="auto" onclick="addButtonHandle()">
+        <!-- <button onclick="rewriteLang(0)">rewite</button> -->
+
+        <div class="switchArea">
+            <input type="checkbox" id="switch1">
+            <label for="switch1"><span></span></label>
+            <div id="swImg"></div>
+        </div>
+
+        <script src="../js/retranslate.js"></script>
+    </body>
+</html

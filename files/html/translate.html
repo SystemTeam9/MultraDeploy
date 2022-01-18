@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>翻訳ページ</title>
+        <link rel="stylesheet" href="../css/style1.css">
+    </head>
+    <body>
+        <img class="DeepL1" src="../image/DeepL1.png" width="200" height="auto" alt="DeepL1">
+
+        <img class="Google" src="../image/Google.png" width="200" height="auto" alt="DeepL1">
+
+        <p>
+            <textarea class="Atextlines" id="deepText" style="font-size: 20px;" rows="6" cols="50"></textarea>
+        </p>
+
+        <p1>
+            <textarea class="Atextlines1" id="deepResult" style="font-size: 20px;" rows="6" cols="50"></textarea>
+        </p1>
+
+        <p2>
+            <textarea class="Atextlines2" id="googleText" style="font-size: 20px;" rows="6" cols="50"></textarea>
+        </p2>
+
+        <p3>
+            <textarea class="Atextlines3" id="googleResult" style="font-size: 20px;" rows="6" cols="50"></textarea>
+        </p3>
+
+        <img class="yazi1" src="../image/yazi1.png" width="70" height="auto" onclick="runAPI(0)">
+
+        <img class="yazi2" src="../image/yazi2.png" width="70" height="auto" onclick="runAPI(1)">
+
+        <div class="switchArea">
+            <input type="checkbox" id="switch1">
+            <label for="switch1"><span></span></label>
+            <div id="swImg"></div>
+        </div>
+
+
+        <!-- <input type="text" id="deepText">
+        <button onClick="DeepLAPI()">DeepL</button>
+        <p id="deepResult">deepL用</p>
+
+        <input type="text" id="googleText">
+        <button onClick="GoogleAPI()">Google</button>
+        <p id="googleResult">google用</p>
+
+        <a href="./addTextField.html">addTextへのリンク</a> -->
+        <script src="../js/translate.js"></script>
+    </body>
+</html>
