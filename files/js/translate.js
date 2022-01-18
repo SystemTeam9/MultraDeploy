@@ -68,3 +68,7 @@ const GoogleAPI = () => {
     const sendJSON = JSON.stringify({'text': beforeText});
     req.send(sendJSON);
 }
+
+const movePage = () => {
+  location.href = "./retranslate.html";
+}

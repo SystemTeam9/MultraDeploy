@@ -108,3 +108,7 @@ const createId = () => {
         classYazi[i].setAttribute("id", i);      // 翻訳ボタンにidを付与する
     }
 }
+
+const movePage = () => {
+    location.href = "./translate.html"
+  }
