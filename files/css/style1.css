@@ -63,20 +63,20 @@ body{
     letter-spacing : 0;                   /* 譁�蟄鈴俣             */
     text-align     : center;              /* 譁�蟄嶺ｽ咲ｽｮ縺ｯ荳ｭ螟ｮ     */
     font-size      : 27px;                /* 譁�蟄励し繧､繧ｺ         */
-  
-    position       : absolute;          
+
+    position       : absolute;
     top: 20px;
     left: 1300px;
     margin         : auto;                /* 荳ｭ螟ｮ蟇�縺�           */
     width          : 150px;               /* 繝懊ち繝ｳ縺ｮ讓ｪ蟷�       */
     background     : whitesmoke;        /* 閭梧勹濶ｲ   */
   }
-  
+
    /* === 繝√ぉ繝�繧ｯ繝懊ャ繧ｯ繧ｹ ==================================== */
   .switchArea input[type="checkbox"] {
     display        : none;            /* 繝√ぉ繝�繧ｯ繝懊ャ繧ｯ繧ｹ髱櫁｡ｨ遉ｺ */
   }
-  
+
    /* === 繝√ぉ繝�繧ｯ繝懊ャ繧ｯ繧ｹ縺ｮ繝ｩ繝吶Ν�ｼ域ｨ呎ｺ厄ｼ� ==================== */
   .switchArea label {
     display        : block;               /* 繝懊ャ繧ｯ繧ｹ隕∫ｴ�縺ｫ螟画峩 */
@@ -85,7 +85,7 @@ body{
     border         : 2px solid #00BFFF;   /* 譛ｪ驕ｸ謚槭ち繝悶�ｮ縺ｮ譫�邱� */
     border-radius  : 30px;                /* 隗剃ｸｸ               */
   }
-  
+
    /* === 繝√ぉ繝�繧ｯ繝懊ャ繧ｯ繧ｹ縺ｮ繝ｩ繝吶Ν�ｼ�ON縺ｮ縺ｨ縺搾ｼ� ================ */
   .switchArea input[type="checkbox"]:checked +label {
     border-color   : #00BFFF;             /* 驕ｸ謚槭ち繝悶�ｮ譫�邱�     */
@@ -93,11 +93,11 @@ body{
 
  /* === 陦ｨ遉ｺ縺吶ｋ譁�蟄暦ｼ域ｨ呎ｺ厄ｼ� ================================ */
  .switchArea label span:after{
-    content        : "翻訳";               /* 陦ｨ遉ｺ縺吶ｋ譁�蟄�       */
-    padding        : 0 0 0 36px;          /* 陦ｨ遉ｺ縺吶ｋ菴咲ｽｮ       */
+    content        : "再翻訳";               /* 陦ｨ遉ｺ縺吶ｋ譁�蟄�       */
+    padding        : 0 0 0 44px;          /* 陦ｨ遉ｺ縺吶ｋ菴咲ｽｮ       */
     color          : #00BFFF;             /* 譁�蟄苓牡             */
   }
-  
+
    /* === 陦ｨ遉ｺ縺吶ｋ譁�蟄暦ｼ�ON縺ｮ縺ｨ縺搾ｼ� ============================ */
   .switchArea  input[type="checkbox"]:checked + label span:after{
     content        : "再翻訳";                /* 陦ｨ遉ｺ縺吶ｋ譁�蟄�       */
@@ -105,7 +105,7 @@ body{
     padding        : 0 36px 0 0;          /* 陦ｨ遉ｺ縺吶ｋ菴咲ｽｮ       */
     color          : #00BFFF;             /* 譁�蟄苓牡             */
   }
-  
+
    /* === 荳ｸ驛ｨ蛻�縺ｮSTYLE�ｼ域ｨ呎ｺ厄ｼ� =============================== */
   .switchArea #swImg {
     position       : absolute;            /* 隕ｪ隕∫ｴ�縺九ｉ縺ｮ逶ｸ蟇ｾ菴咲ｽｮ*/
@@ -117,7 +117,7 @@ body{
     border-radius  : 26px;                /* 隗剃ｸｸ               */
     transition     : .2s;                 /* 貊代ｉ縺句､牙喧         */
   }
-  
+
    /* === 荳ｸ驛ｨ蛻�縺ｮSTYLE�ｼ�ON縺ｮ縺ｨ縺搾ｼ� =========================== */
   .switchArea input[type="checkbox"]:checked ~ #swImg {
     transform      : translateX(90px);    /* 荳ｸ繧ょ承縺ｸ遘ｻ蜍�       */
